@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Runtime.ConstrainedExecution;
 using UnityEngine;
 //[Serializable]
 //public struct NodeOperator
@@ -29,9 +30,9 @@ public struct NodeParam
     [Range(0f, 1f)]
     public float value;
 
-    public float GetValue()
+    public float GetValue(UserInstance user)
     {
-        return node ? node.GetValue() : value; //null 이면 value 반환!
+        return node? user.GetNode(node).GetValue() : value; //null 이면 value 반환!
     }
 }
 
@@ -46,12 +47,12 @@ public struct NodeOperatorComboSet
 public class SO_NodeOperator : ScriptableObject
 {
 
-    public virtual float GetValue(List<NodeOperatorComboSet> list, float bias)
+    public virtual float GetValue(List<NodeOperatorComboSet> list, float bias, UserInstance user)
     {
         float a = 0;
         foreach (NodeOperatorComboSet combo in list)
         {
-            a += combo.node.GetValue() * combo.weight.GetValue();
+            a += user.GetNode(combo.node).GetValue() * combo.weight.GetValue(user);
         }
 
         bias += list.Count>0 ? (a / list.Count):0; // 다른 노드들에서 온 값들의 평균 + 편향

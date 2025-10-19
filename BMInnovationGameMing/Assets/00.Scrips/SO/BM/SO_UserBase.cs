@@ -1,55 +1,62 @@
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "SO_UserBase", menuName = "SO/BM/SO_UserBase")]
 public class SO_UserBase : ScriptableObject
 {
-    public List<SerializeNodeSO> nodes;
-}
 
-[Serializable]
-public class SerializeNodeSO
-{
-    public SO_NodeParent node;
+    public SO_TaskSlot[,] taskSlots; //주말-평일 -> 하루 일과 비는 시간 및 일하거나 학습하는 시간
 
-    public bool bIsParmOverride = false;
+    public List<NetNodeIntance> nodes;
 
-#if UNITY_EDITOR
-    [ConditionalField("bIsParmOverride")]
-# endif
-    public SerializeableNodeParams overrideNode;
+    public List<SO_NodeParent> nodeSources_NoUse;
 
-    //public SO_NodeParent GetNode()
-    //{
-    //    SO_NodeParent newNode = node.GetInstance();
-        
-    //    if(bIsParmOverride)
-    //    {
-    //        newNode.input = overrideNode.input;
-    //        newNode.bias = overrideNode.bias;
-    //        newNode.caculMethod = overrideNode.caculMethod;
-    //    }
-
-        
-    //    return newNode;
-
-    //}
-
-    [ContextMenu("GetFromSource")]
-    public void GetFromSource()
+    [ContextMenu("sourceSO2InstanceClass")]
+    public void SOurce2nodes()
     {
-        overrideNode.input = node.input;
-        overrideNode.bias = node.bias;
-        overrideNode.caculMethod = node.caculMethod;
+        foreach (var item in nodeSources_NoUse)
+        {
+            nodes.Add(new NetNodeIntance(item, null, item.input, item.bias, item.caculMethod));
+        }
     }
 }
-[Serializable]
-public class SerializeableNodeParams
-{
-    public List<NodeOperatorComboSet> input;
 
-    public NodeParam bias;
-    public SO_NodeOperator caculMethod;
+[Serializable]
+public class UserInstance
+{
+    public SO_TaskSlot[] taskSlots;
+
+    public List<SO_NodeParent> nodeSources_NoUse;
+
+    public List<NetNodeIntance> nodes;
+
+    private Dictionary<SO_NodeParent,NetNodeIntance> _nodesDic;
+
+    public UserInstance(SO_TaskSlot[] taskSlots, List<SO_NodeParent> nodeSources_NoUse, List<NetNodeIntance> nodes, Dictionary<SO_NodeParent, NetNodeIntance> nodesDic)
+    {
+        this.taskSlots = taskSlots;
+        this.nodeSources_NoUse = nodeSources_NoUse;
+        this.nodes = nodes;
+        _nodesDic = nodesDic;
+    }
+
+    public void Init()
+    {
+        foreach(var item in nodes)
+        {
+            item.Init(this);
+            _nodesDic.Add(item.node,item);
+        }
+    }
+
+    public NetNodeIntance GetNode(SO_NodeParent node)
+    {
+        NetNodeIntance a = null;
+        _nodesDic.TryGetValue(node,out a);
+        if (a == null)
+            UnityEngine.Debug.LogAssertion("Shit!");
+        return a;
+    }
 }
+

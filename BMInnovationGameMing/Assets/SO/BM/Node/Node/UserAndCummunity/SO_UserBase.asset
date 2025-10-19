@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1400caa2ae183124b85dead10fd65a71, type: 3}
   m_Name: SO_UserBase
   m_EditorClassIdentifier: 
+  taskSlots: []
   nodes:
   - node: {fileID: 11400000, guid: 78cb1b645ad99774882392004e58187b, type: 2}
-    bIsParmOverride: 0
-    overrideNode:
-      input: []
-      bias:
-        node: {fileID: 0}
-        value: 0.419
-      caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+    input: []
+    bias:
+      node: {fileID: 0}
+      value: 0
+    caculMethod: {fileID: 0}
+  nodeSources_NoUse: []
