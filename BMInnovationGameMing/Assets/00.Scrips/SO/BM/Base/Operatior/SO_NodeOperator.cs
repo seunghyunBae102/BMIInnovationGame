@@ -30,6 +30,12 @@ public struct NodeParam
     [Range(0f, 1f)]
     public float value;
 
+    public NodeParam(SO_NodeParent node, float value)
+    {
+        this.node = node;
+        this.value = value;
+    }
+
     public float GetValue(UserInstance user)
     {
         return node? user.GetNode(node).GetValue() : value; //null 이면 value 반환!
@@ -41,6 +47,11 @@ public struct NodeOperatorComboSet
 {
     public SO_NodeParent node;
     public NodeParam weight;
+    public NodeOperatorComboSet(SO_NodeParent node, NodeParam weight)
+    {
+        this.node = node;
+        this.weight = weight;
+    }
 }
 [CreateAssetMenu(fileName = "SO_NodeOperator", menuName = "SO/BM/SO_Operator")]
 

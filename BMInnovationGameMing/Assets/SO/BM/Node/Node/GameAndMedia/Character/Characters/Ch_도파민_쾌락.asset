@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 493b421e7dd158a4394c8e383c1b54c2, type: 3}
+  m_Name: "Ch_\uB3C4\uD30C\uBBFC_\uCF8C\uB77D"
+  m_EditorClassIdentifier: 
+  input:
+  - node: {fileID: 11400000, guid: d344b67f017e75442a7deae8a23d18e8, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: d344b67f017e75442a7deae8a23d18e8, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 341a4f6ae1c07db4da21c5e9ff80de1f, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 341a4f6ae1c07db4da21c5e9ff80de1f, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: dc7b8a6abf5373941bea64f68a227177, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: dc7b8a6abf5373941bea64f68a227177, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 6ccb4fe01a25123408f710b82138eb7a, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 6ccb4fe01a25123408f710b82138eb7a, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: a61e6fac9a3c7904ab2d788d83ab855d, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: a61e6fac9a3c7904ab2d788d83ab855d, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: d738a390c38de204c98988859dfbbcc8, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: d738a390c38de204c98988859dfbbcc8, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 0683512dfe7859242b464e8b8adc4903, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 0683512dfe7859242b464e8b8adc4903, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: e6a873b45d8c39846ab30464f6ab8eca, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: e6a873b45d8c39846ab30464f6ab8eca, type: 2}
+      value: 0.5
+  bias:
+    node: {fileID: 0}
+    value: 0
+  caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+  _nodeSources_Ref: []
+  _description: "\uC989\uAC01\uC801 \uBCF4\uC0C1\xB7\uC790\uADF9 \uCD94\uAD6C \uC131\uD5A5\n\uACFC\uAE08,
+    \uAD11\uACE0 \uD074\uB9AD, \uC1FC\uCE20 \uC2DC\uCCAD \uC9C0\uC18D"

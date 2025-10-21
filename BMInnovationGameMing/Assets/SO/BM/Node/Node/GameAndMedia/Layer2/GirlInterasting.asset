@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 493b421e7dd158a4394c8e383c1b54c2, type: 3}
+  m_Name: GirlInterasting
+  m_EditorClassIdentifier: 
+  input:
+  - node: {fileID: 11400000, guid: 4302d1352543a794cb2fe8a1682be76f, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 4302d1352543a794cb2fe8a1682be76f, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: b8f128170f57f0b4fbd8b3bce7a3c8ee, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: b8f128170f57f0b4fbd8b3bce7a3c8ee, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 852f1077747f656418c3abe985dbedf2, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 852f1077747f656418c3abe985dbedf2, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 982c58c427348be4593f0d1dbbd2c129, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 982c58c427348be4593f0d1dbbd2c129, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 3b25bb372b187bf4bbd40a9f4a126add, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 3b25bb372b187bf4bbd40a9f4a126add, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 11462cab3aa8e57499bc7a454d9d88f0, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 11462cab3aa8e57499bc7a454d9d88f0, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: e19a19d35fe39c044a9d12dbad4f5477, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: e19a19d35fe39c044a9d12dbad4f5477, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: ea7b410260a553d408190baa93e8f0ba, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: ea7b410260a553d408190baa93e8f0ba, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: f05996d19b98ba248a20dbe4f8fc19b0, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: f05996d19b98ba248a20dbe4f8fc19b0, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 16289bea219a12045b55bb2ea4b9e114, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 16289bea219a12045b55bb2ea4b9e114, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 5779de2045199b1448afe27a38abdac6, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 5779de2045199b1448afe27a38abdac6, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 2267a6bb796bc1d41b76688ec64f3a5d, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 2267a6bb796bc1d41b76688ec64f3a5d, type: 2}
+      value: 0.5
+  bias:
+    node: {fileID: 11400000}
+    value: 0
+  caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+  nodeSources_Ref: []

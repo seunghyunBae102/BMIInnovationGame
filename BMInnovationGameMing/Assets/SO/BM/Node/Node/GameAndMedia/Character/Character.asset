@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 493b421e7dd158a4394c8e383c1b54c2, type: 3}
+  m_Name: Character
+  m_EditorClassIdentifier: 
+  input:
+  - node: {fileID: 11400000, guid: 17139ae35c230fd4c8afecda2f2a9a61, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 17139ae35c230fd4c8afecda2f2a9a61, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 4add4e60f3c7b0b40aa305ecaf598bbf, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 4add4e60f3c7b0b40aa305ecaf598bbf, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: f539a0d0365d09541947443998afa5a8, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: f539a0d0365d09541947443998afa5a8, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: c1b57d32d337606429bec0602ddbd62c, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: c1b57d32d337606429bec0602ddbd62c, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 4c744dfc560b42040ae29c5a2f28cd68, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 4c744dfc560b42040ae29c5a2f28cd68, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 8a873496b3b6f1249a8c503bab5192f2, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 8a873496b3b6f1249a8c503bab5192f2, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 44727b77b417c364b90d3b20660e778e, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 44727b77b417c364b90d3b20660e778e, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: b30b4ee7e07da2942922ec259ae34d3c, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: b30b4ee7e07da2942922ec259ae34d3c, type: 2}
+      value: 0.5
+  bias:
+    node: {fileID: 11400000}
+    value: 0.2
+  caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+  _nodeSources_Ref: []
+  _description: "\uAC10\uC815 - \uC124\uC815\uC801\uC778 \uAC70 \u3147\u3147"

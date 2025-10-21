@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 493b421e7dd158a4394c8e383c1b54c2, type: 3}
+  m_Name: "Ch_\uACBD\uC81C_\uC18C\uBE44"
+  m_EditorClassIdentifier: 
+  input:
+  - node: {fileID: 11400000, guid: 119d72bc858ec074b84fd21db6201510, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 119d72bc858ec074b84fd21db6201510, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 2f08a941aa0421e4896b00db330c1bab, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 2f08a941aa0421e4896b00db330c1bab, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 508c73c7924cd6942a28caec63ca94b1, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 508c73c7924cd6942a28caec63ca94b1, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 0124d7afcba188144a8d3eee60aa2d4d, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 0124d7afcba188144a8d3eee60aa2d4d, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: a0fee0854d5780f4fa91ac728636db65, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: a0fee0854d5780f4fa91ac728636db65, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 6aea59b91e04ac245a2d2a4785ac1d10, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 6aea59b91e04ac245a2d2a4785ac1d10, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 2e2e8f5c0995c264e87539b30ef45209, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 2e2e8f5c0995c264e87539b30ef45209, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 3e1ea77bfcf725544a28fc2e2932f4bb, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 3e1ea77bfcf725544a28fc2e2932f4bb, type: 2}
+      value: 0.5
+  bias:
+    node: {fileID: 0}
+    value: 0
+  caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+  _nodeSources_Ref: []
+  _description: "\uB3C8\uACFC \uD6A8\uC6A9, \uC808\uC57D vs \uACFC\uC2DC\n\uACFC\uAE08
+    \uACB0\uC815, \uAD11\uACE0 \uC218\uC6A9\uB3C4"

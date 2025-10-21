@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 493b421e7dd158a4394c8e383c1b54c2, type: 3}
-  m_Name: B_Interasting
+  m_Name: Ch_planning_tendency
   m_EditorClassIdentifier: 
   input: []
   bias:
     node: {fileID: 0}
     value: 0
   caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
-  nodeSources_Ref: []
+  _nodeSources_Ref: []
+  _description: "| \uC804\uB7B5\uC801 \uACC4\uD68D\uC131 | \uC7AC\uD654 \uAD00\uB9AC\xB7\uCF58\uD150\uCE20
+    \uBC18\uBCF5 \uC120\uD638\u2191 |"

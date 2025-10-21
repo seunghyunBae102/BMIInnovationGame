@@ -6,7 +6,27 @@ using UnityEngine;
 
 public class SO_NodeBase : SO_NodeParent
 {
+    [SerializeField]
+    private List<SO_NodeParent> _nodeSources_Ref;
 
+    [SerializeField,Multiline]
+    private string _description;
+
+    [ContextMenu("Ref2SOurce")]
+    public void Ref2Source()
+    {
+        foreach (var item in _nodeSources_Ref)
+        {
+            input.Add(new(item, new(item,0.5f)));
+
+
+        }
+        if(bias.node ==null)
+        {
+            bias.node = this;
+        }
+        _nodeSources_Ref.Clear();
+    }
 }
 
 [Serializable]

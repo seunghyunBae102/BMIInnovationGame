@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 493b421e7dd158a4394c8e383c1b54c2, type: 3}
+  m_Name: "Ch_\uD638\uAE30\uC2EC"
+  m_EditorClassIdentifier: 
+  input:
+  - node: {fileID: 11400000, guid: 747d1586ef517e148a1a36e8a14c5592, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 747d1586ef517e148a1a36e8a14c5592, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: d8470090f30ad7a468b60c37c6698ffe, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: d8470090f30ad7a468b60c37c6698ffe, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: f5f771db903ce174db3963ae4d970228, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: f5f771db903ce174db3963ae4d970228, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 692240c118c82024cbe2d3f21a957186, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 692240c118c82024cbe2d3f21a957186, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: f2063f996f26326468e1dc4eedf8225d, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: f2063f996f26326468e1dc4eedf8225d, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 317a0aa8e019bf043bc2db71520c4d5e, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 317a0aa8e019bf043bc2db71520c4d5e, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: f5012ae3a709ab142996b63baa7f4e24, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: f5012ae3a709ab142996b63baa7f4e24, type: 2}
+      value: 0.5
+  bias:
+    node: {fileID: 0}
+    value: 0
+  caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+  _nodeSources_Ref: []
+  _description: "\uD0D0\uAD6C, \uC815\uBCF4\uC120\uD638, \uC54C\uACE0\uB9AC\uC998
+    \uBC18\uC751\n\uC720\uD29C\uBE0C \uD0D0\uC0C9\xB7\uC0C8\uB85C\uC6B4 \uCF58\uD150\uCE20
+    \uC120\uD638"

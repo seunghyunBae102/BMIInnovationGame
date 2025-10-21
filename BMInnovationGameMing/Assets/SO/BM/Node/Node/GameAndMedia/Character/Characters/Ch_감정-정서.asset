@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 493b421e7dd158a4394c8e383c1b54c2, type: 3}
+  m_Name: "Ch_\uAC10\uC815-\uC815\uC11C"
+  m_EditorClassIdentifier: 
+  input:
+  - node: {fileID: 11400000, guid: 9a365bc01694c524c9567a010a83377e, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 9a365bc01694c524c9567a010a83377e, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 0b33bd15e99ab58458cc8f537be628af, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 0b33bd15e99ab58458cc8f537be628af, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: ff373535a32c09c468d00f7c115093d3, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: ff373535a32c09c468d00f7c115093d3, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 90657217645ea234e805a72a8f942c4a, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 90657217645ea234e805a72a8f942c4a, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: b4afcc0403fb90645be9607582eee519, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: b4afcc0403fb90645be9607582eee519, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 6e7b0bda4c6280d478753828654f5a1f, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 6e7b0bda4c6280d478753828654f5a1f, type: 2}
+      value: 0.5
+  - node: {fileID: 11400000, guid: 3827cf9d3b39da54fa029ae673255237, type: 2}
+    weight:
+      node: {fileID: 11400000, guid: 3827cf9d3b39da54fa029ae673255237, type: 2}
+      value: 0.5
+  bias:
+    node: {fileID: 0}
+    value: 0
+  caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+  _nodeSources_Ref: []
+  _description: "E. \uAC10\uC815\xB7\uC815\uC11C \uC0C1\uD0DC(Affectivity) \n\uAE30\uBD84,
+    \uBD88\uC548, \uD53C\uB85C, \uC2A4\uD2B8\uB808\uC2A4 \uAC8C\uC784\n \uC138\uC158
+    \uAE38\uC774, \uC2DC\uCCAD \uC9C0\uC18D\uC2DC\uAC04"

@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 493b421e7dd158a4394c8e383c1b54c2, type: 3}
-  m_Name: B_Interasting
+  m_Name: Che_reward_sensitivity
   m_EditorClassIdentifier: 
   input: []
   bias:
     node: {fileID: 0}
     value: 0
   caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
-  nodeSources_Ref: []
+  _nodeSources_Ref: []
+  _description: "\uC989\uAC01\uC801 \uBCF4\uC0C1\uC5D0 \uB300\uD55C \uBBFC\uAC10\uB3C4\n\uACFC\uAE08,
+    \uBCF4\uC0C1\uD615 \uAD11\uACE0"
