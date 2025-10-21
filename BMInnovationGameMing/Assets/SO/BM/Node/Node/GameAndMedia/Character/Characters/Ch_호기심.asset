@@ -42,7 +42,7 @@ MonoBehaviour:
       node: {fileID: 11400000, guid: f5012ae3a709ab142996b63baa7f4e24, type: 2}
       value: 0.5
   bias:
-    node: {fileID: 0}
+    node: {fileID: 11400000}
     value: 0
   caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
   _nodeSources_Ref: []
