@@ -10,7 +10,7 @@ public class SO_NodeBase : SO_NodeParent
 }
 
 [Serializable]
-public class NetNodeIntance
+public class NetNodeInstance
 {
     public SO_NodeParent node;
 
@@ -20,7 +20,7 @@ public class NetNodeIntance
     public NodeParam bias;
     public SO_NodeOperator caculMethod;
 
-    public NetNodeIntance(SO_NodeParent node, UserInstance user, List<NodeOperatorComboSet> input, NodeParam bias, SO_NodeOperator caculMethod)
+    public NetNodeInstance(SO_NodeParent node, UserInstance user, List<NodeOperatorComboSet> input, NodeParam bias, SO_NodeOperator caculMethod)
     {
         this.node = node;
         this.mom = user;

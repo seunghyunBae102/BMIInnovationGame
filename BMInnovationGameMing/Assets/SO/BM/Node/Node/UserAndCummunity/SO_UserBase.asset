@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1400caa2ae183124b85dead10fd65a71, type: 3}
   m_Name: SO_UserBase
   m_EditorClassIdentifier: 
-  taskSlots: []
   nodes:
-  - node: {fileID: 11400000, guid: 78cb1b645ad99774882392004e58187b, type: 2}
+  - node: {fileID: 0}
     input: []
     bias:
       node: {fileID: 0}

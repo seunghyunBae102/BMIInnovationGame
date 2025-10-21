@@ -8,7 +8,7 @@ public class SO_UserBase : ScriptableObject
 
     public SO_TaskSlot[,] taskSlots; //주말-평일 -> 하루 일과 비는 시간 및 일하거나 학습하는 시간
 
-    public List<NetNodeIntance> nodes;
+    public List<NetNodeInstance> nodes;
 
     public List<SO_NodeParent> nodeSources_NoUse;
 
@@ -17,7 +17,7 @@ public class SO_UserBase : ScriptableObject
     {
         foreach (var item in nodeSources_NoUse)
         {
-            nodes.Add(new NetNodeIntance(item, null, item.input, item.bias, item.caculMethod));
+            nodes.Add(new NetNodeInstance(item, null, item.input, item.bias, item.caculMethod));
         }
     }
 }
@@ -29,11 +29,11 @@ public class UserInstance
 
     public List<SO_NodeParent> nodeSources_NoUse;
 
-    public List<NetNodeIntance> nodes;
+    public List<NetNodeInstance> nodes;
 
-    private Dictionary<SO_NodeParent,NetNodeIntance> _nodesDic;
+    private Dictionary<SO_NodeParent,NetNodeInstance> _nodesDic;
 
-    public UserInstance(SO_TaskSlot[] taskSlots, List<SO_NodeParent> nodeSources_NoUse, List<NetNodeIntance> nodes, Dictionary<SO_NodeParent, NetNodeIntance> nodesDic)
+    public UserInstance(SO_TaskSlot[] taskSlots, List<SO_NodeParent> nodeSources_NoUse, List<NetNodeInstance> nodes, Dictionary<SO_NodeParent, NetNodeInstance> nodesDic)
     {
         this.taskSlots = taskSlots;
         this.nodeSources_NoUse = nodeSources_NoUse;
@@ -50,9 +50,9 @@ public class UserInstance
         }
     }
 
-    public NetNodeIntance GetNode(SO_NodeParent node)
+    public NetNodeInstance GetNode(SO_NodeParent node)
     {
-        NetNodeIntance a = null;
+        NetNodeInstance a = null;
         _nodesDic.TryGetValue(node,out a);
         if (a == null)
             UnityEngine.Debug.LogAssertion("Shit!");
