@@ -42,34 +42,34 @@ public class SimRunner : GetCompoableBase
             }
         }
 
-        // weightLoader에서 로드된 노드들의 키를 기반으로 featureWeights 초기화
-        foreach (var ue in userEntities)
-        {
-            var rs = ue.runtimeState;
-            if (rs == null) continue;
-            if (rs.featureWeights == null) rs.featureWeights = new Dictionary<string, float>(StringComparer.OrdinalIgnoreCase);
+        //// weightLoader에서 로드된 노드들의 키를 기반으로 featureWeights 초기화
+        //foreach (var ue in userEntities)
+        //{
+        //    var rs = ue.runtimeState;
+        //    if (rs == null) continue;
+        //    if (rs.featureWeights == null) rs.featureWeights = new(StringComparer.OrdinalIgnoreCase);
             
-            // weightLoader에서 로드된 노드들의 키를 사용
-            if (weightLoader != null && weightLoader.soDict != null)
-            {
-                foreach (var nodeKey in weightLoader.soDict.Keys)
-                {
-                    if (!rs.featureWeights.ContainsKey(nodeKey))
-                        rs.featureWeights[nodeKey] = 1f;
-                }
-            }
+        //    // weightLoader에서 로드된 노드들의 키를 사용
+        //    if (weightLoader != null && weightLoader.soDict != null)
+        //    {
+        //        foreach (var nodeKey in weightLoader.soDict.Keys)
+        //        {
+        //            if (!rs.featureWeights.ContainsKey(nodeKey))
+        //                rs.featureWeights[nodeKey] = 1f;
+        //        }
+        //    }
             
-            // coeffTable keys도 추가로 초기화
-            if (coeffTable != null && coeffTable.keys != null)
-            {
-                foreach (var k in coeffTable.keys)
-                {
-                    if (string.IsNullOrWhiteSpace(k)) continue;
-                    if (!rs.featureWeights.ContainsKey(k))
-                        rs.featureWeights[k] = 1f;
-                }
-            }
-        }
+        //    // coeffTable keys도 추가로 초기화
+        //    if (coeffTable != null && coeffTable.keys != null)
+        //    {
+        //        foreach (var k in coeffTable.keys)
+        //        {
+        //            if (string.IsNullOrWhiteSpace(k)) continue;
+        //            if (!rs.featureWeights.ContainsKey(k))
+        //                rs.featureWeights[k] = 1f;
+        //        }
+        //    }
+        //}
 
         if (neuralNet != null) neuralNet.Prepare();
     }

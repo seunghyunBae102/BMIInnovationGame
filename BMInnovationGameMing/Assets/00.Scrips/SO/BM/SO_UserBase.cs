@@ -21,8 +21,8 @@ public class SO_UserBase : ScriptableObject
     {
         return new UserRuntimeState
         {
-            userId = userId ?? name,
-            mood = 0.5f,
+            userId = userId ?? name
+            ,mood = 0.5f,
             fatigue = 0f,
             desire = 0.5f,
             habit = 0f,
