@@ -5,7 +5,7 @@ public class GetCompoableBase : MonoBehaviour,IGetCompoable
     [HideInInspector]
     public GetCompoParent Mom;
 
-    public void Init(GetCompoParent mom)
+    public virtual void Init(GetCompoParent mom)
     {
         mom.AddCompoDic(this.GetType(), this);
         Mom = mom;
@@ -24,5 +24,6 @@ public class GetCompoableBase : MonoBehaviour,IGetCompoable
 
             Init(trm.GetComponent<GetCompoParent>());
         }
+        //부모가 호출 안해주면 직접 찾아가서 자식이 되기!
     }
 }

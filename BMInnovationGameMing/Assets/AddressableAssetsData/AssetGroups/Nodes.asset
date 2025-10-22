@@ -1,0 +1,683 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Nodes
+  m_EditorClassIdentifier: 
+  m_GroupName: Nodes
+  m_GUID: 7cb2b9edfac37c64ab057a1b5dd4ac33
+  m_SerializeEntries:
+  - m_GUID: 0124d7afcba188144a8d3eee60aa2d4d
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uACBD\uC81C_\uC18C\uBE44\uB4E4/Che_economic_stress.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01c425c94b06b38429dd8a7e0d4939cb
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC2DC\uAC04_\uD658\uACBD\uC694\uC778\uB4E4/Ch_boredom_tolerance.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01f9d1d287b5e15449067a2de386c79a
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC0AC\uD68C\uC801\uB3D9\uAE30\uB4E4/Che_parasocial_attachment.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 023a295ec91ff484c8d80412f15bc6d2
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/State/B_Stress.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0683512dfe7859242b464e8b8adc4903
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uB3C4\uD30C\uBBFC\uCF8C\uB77D\uB4E4/Che_risk_preference.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b33bd15e99ab58458cc8f537be628af
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uAC10\uC815\uB4E4/Che_creative_curiosity.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11462cab3aa8e57499bc7a454d9d88f0
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/Interasting/GirlInteresting/Added/B_Glasses_Love.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 119d72bc858ec074b84fd21db6201510
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uACBD\uC81C_\uC18C\uBE44\uB4E4/Che_ad_irritation.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11b049fcc230ee84e8ab3eebcf1dee03
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC778\uC9C0_\uC8FC\uC758\uB4E4/Che_focus_span.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14cee2cb300934841b2120377dee77f8
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC778\uC9C0_\uC8FC\uC758\uB4E4/Che_information_density_tolerance.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16289bea219a12045b55bb2ea4b9e114
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/Interasting/GirlInteresting/Added/B_Maid_love.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16327c9ec50d23047b86fff005c0e7c0
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC0AC\uD68C\uC801\uB3D9\uAE30\uB4E4/Che_social_fatigue.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17139ae35c230fd4c8afecda2f2a9a61
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/Ch_\uCDA9\uB3D9.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e852f38b991c5146a383cc46d476bce
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC2DC\uAC04_\uD658\uACBD\uC694\uC778\uB4E4/Ch_Patience.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2267a6bb796bc1d41b76688ec64f3a5d
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/Interasting/GirlInteresting/Added/B_ShorHairLove.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2cb27e300e8ffba4e91b066d69eb79bd
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/Character/Character.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e2e8f5c0995c264e87539b30ef45209
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uACBD\uC81C_\uC18C\uBE44\uB4E4/Che_purchase_confidence.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f08a941aa0421e4896b00db330c1bab
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uACBD\uC81C_\uC18C\uBE44\uB4E4/Che_ad_tolerance.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3090fd5c90b65d0479a2d86fea7b951e
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC0AC\uD68C\uC801\uB3D9\uAE30\uB4E4/Che_altruism.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 317a0aa8e019bf043bc2db71520c4d5e
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uD638\uAE30\uC2EC\uB4E4/Che_learning_orientation.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 341a4f6ae1c07db4da21c5e9ff80de1f
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uB3C4\uD30C\uBBFC\uCF8C\uB77D\uB4E4/Che_completion_drive.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3827cf9d3b39da54fa029ae673255237
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uAC10\uC815\uB4E4/Che_novelty_reward_link.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38798783f4e5f2d43bb34fe546a9214d
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC778\uC9C0_\uC8FC\uC758\uB4E4/Che_habit_strength.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38c73e07a995aa64f9184ebd347c5b1d
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC0AC\uD68C\uC801\uB3D9\uAE30\uB4E4/Che_social_affiliation.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b25bb372b187bf4bbd40a9f4a126add
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/Interasting/GirlInteresting/Added/B_Futanari_love.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e1ea77bfcf725544a28fc2e2932f4bb
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uACBD\uC81C_\uC18C\uBE44\uB4E4/Che_value_for_money.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f09b0b431a95ae46aa6a2bd7181cd61
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/B_RuliWeb_Love.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 422baf44e6099094393a30ab34d45f5f
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC2DC\uAC04_\uD658\uACBD\uB4E4/Che_network_quality.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4302d1352543a794cb2fe8a1682be76f
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/Interasting/GirlInteresting/Added/B_AnimeGirl_love.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44727b77b417c364b90d3b20660e778e
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/Ch_\uC778\uC9C0_\uC8FC\uC758.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46ec9038413a6224d947bc58b721154c
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/Layer2/GirlInterasting.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49234aecc68fb3b41958ed678c64b64d
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC2DC\uAC04_\uD658\uACBD\uB4E4/Che_ambient_noise.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a369844122f4c440bb54e30880175e5
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/State/B_Money.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4add4e60f3c7b0b40aa305ecaf598bbf
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/Ch_\uAC10\uC815-\uC815\uC11C.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c744dfc560b42040ae29c5a2f28cd68
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/Ch_\uC0AC\uD68C\uC801\uB3D9\uAE30.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 508c73c7924cd6942a28caec63ca94b1
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uACBD\uC81C_\uC18C\uBE44\uB4E4/Che_brand_loyalty.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53ea94351f0cbb3428b875309114a422
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC778\uC9C0_\uC8FC\uC758\uB4E4/Che_pattern_detection.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56db72e3ca1405a45940e0af6e881d4e
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC2DC\uAC04_\uD658\uACBD\uC694\uC778\uB4E4/Ch_task_persistence.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56f887b45c5aa5b4fbc749cfd59724b8
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/State/B_Happyness.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5779de2045199b1448afe27a38abdac6
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/Interasting/GirlInteresting/Added/B_SchoolGIrl_love.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 585c9c483efcdc74e973825a25bd6836
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/B_Game_BookLove.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 596b1a481fa242247848032a32801de3
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/B_Toon_Love.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 602ad49b6d4fdde4abcc019dd1f70a89
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uCDA9\uB3D9\uB4E4/Che_planning_tendency.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 604817e5ab5c7984892703c1f6dcd361
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/State/B_Tired.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60cded6d0c9d1e44a940bd9ab265ae0e
+    m_Address: Assets/SO/BM/Node/Node/SO_NodeBse.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62dd9741dc01a9e4db7a22c149e500d1
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC0AC\uD68C\uC801\uB3D9\uAE30\uB4E4/Che_fomo_sensitivity.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6395f0d3f7989fd4697b37279323e3be
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC2DC\uAC04_\uD658\uACBD\uC694\uC778\uB4E4/ChE_Impulsivity.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6862d963ca0abbe4fac82a87bdaa258b
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC778\uC9C0_\uC8FC\uC758\uB4E4/Che_attention_shift_speed.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 692240c118c82024cbe2d3f21a957186
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uD638\uAE30\uC2EC\uB4E4/Che_emotional_curiosity.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a176105f963c2f42957a2288ef7ff1b
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC778\uC9C0_\uC8FC\uC758\uB4E4/Che_decision_speed.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6aea59b91e04ac245a2d2a4785ac1d10
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uACBD\uC81C_\uC18C\uBE44\uB4E4/Che_materialism.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ccb4fe01a25123408f710b82138eb7a
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uB3C4\uD30C\uBBFC\uCF8C\uB77D\uB4E4/Che_novelty_seeking.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e7b0bda4c6280d478753828654f5a1f
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uAC10\uC815\uB4E4/Che_learning_orientation.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ed8b33b43f2b704f8aaae4d217088d9
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/B_Freind_love.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70575b2b3e5f3c44c965361958ed4ce2
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC2DC\uAC04_\uD658\uACBD\uB4E4/Che_device_comfort.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 747d1586ef517e148a1a36e8a14c5592
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uD638\uAE30\uC2EC\uB4E4/Che_algorithmic_compliance.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77751aac48f2b944884b6a26fa11dadb
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC2DC\uAC04_\uD658\uACBD\uB4E4/Che_time_of_day.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78cb1b645ad99774882392004e58187b
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/B_Game_Love.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d7b60e72d664db46a752afe2941d38b
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC0AC\uD68C\uC801\uB3D9\uAE30\uB4E4/Che_friend_influence.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ff2f0e2497b54b459c1063f24c953c0
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/Media_OwnParm/B_RemainingContents.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8504121ff3ec6ac49956731d46b9ae3a
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uCDA9\uB3D9\uB4E4/Che_task_persistence.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 852f1077747f656418c3abe985dbedf2
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/Interasting/GirlInteresting/Added/B_BigTit_love.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 863344e0e8c88e04fa7047152f7e3b1e
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uCDA9\uB3D9\uB4E4/Che_Self_control.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a873496b3b6f1249a8c503bab5192f2
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/Ch_\uC2DC\uAC04_\uD658\uACBD.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ce2b99b0763e4d4d8cc52b0acd7ddcc
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/Media_OwnParm/B_Know.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fe21ae072b24f944b6eea9aa5f7d45c
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC2DC\uAC04_\uD658\uACBD\uB4E4/Che_social_proximity.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90657217645ea234e805a72a8f942c4a
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uAC10\uC815\uB4E4/Che_emotional_curiosity.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91bc46615e28abb4bbb3f5a0c9eaf146
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC778\uC9C0_\uC8FC\uC758\uB4E4/Che_multitask_tendency.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 982c58c427348be4593f0d1dbbd2c129
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/Interasting/GirlInteresting/Added/B_Furry_love.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a365bc01694c524c9567a010a83377e
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uAC10\uC815\uB4E4/Che_algorithmic_compliance.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d41bdf1d4816024c94b00a0691468fb
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC0AC\uD68C\uC801\uB3D9\uAE30\uB4E4/Che_social_validation.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e549de70cd19374b9b0ecac96d7bfb3
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC2DC\uAC04_\uD658\uACBD\uC694\uC778\uB4E4/Ch_delay_discounting.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0f23fbdb6dd06f4698b0723d6c70438
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/B_AnimeLove.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0fee0854d5780f4fa91ac728636db65
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uACBD\uC81C_\uC18C\uBE44\uB4E4/Che_frugality.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2fb2ee029f8e954c94fcd0c86609d6d
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/B_DC_Love.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a530e49724ece4d4695349037af07243
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/B_MovieLove.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a61e6fac9a3c7904ab2d788d83ab855d
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uB3C4\uD30C\uBBFC\uCF8C\uB77D\uB4E4/Che_reward_delay_tolerance.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a90d080ebe874f54b89107c7736e5a6b
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uCDA9\uB3D9\uB4E4/Che_boredom_tolerance.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afc8850d1f70b1345867a6d9cb46cc12
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC2DC\uAC04_\uD658\uACBD\uB4E4/Che_battery_level.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b30b4ee7e07da2942922ec259ae34d3c
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/Ch_\uD638\uAE30\uC2EC.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4afcc0403fb90645be9607582eee519
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uAC10\uC815\uB4E4/Che_information_curiosity.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8f128170f57f0b4fbd8b3bce7a3c8ee
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/Interasting/GirlInteresting/Added/B_BDSM_love.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1b57d32d337606429bec0602ddbd62c
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/Ch_\uB3C4\uD30C\uBBFC_\uCF8C\uB77D.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ccbd421b9db66de4b858f43affdbcef8
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/Layer2/B_Interasting.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cce7b7cf36530154a8a98916bc545161
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC2DC\uAC04_\uD658\uACBD\uB4E4/Che_location_context.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0f15612e22201c47a532728f9e962a1
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/Media_OwnParm/B_ThisGame_love.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1fe09a6146d4514a99309536f40ddd0
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC2DC\uAC04_\uD658\uACBD\uC694\uC778\uB4E4/Ch_planning_tendency.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d344b67f017e75442a7deae8a23d18e8
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uB3C4\uD30C\uBBFC\uCF8C\uB77D\uB4E4/Che_arousal_seeking.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d44758c31fb5b0b4591bce255b7af75a
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/B_Idol_Love.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d738a390c38de204c98988859dfbbcc8
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uB3C4\uD30C\uBBFC\uCF8C\uB77D\uB4E4/Che_reward_sensitivity.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8470090f30ad7a468b60c37c6698ffe
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uD638\uAE30\uC2EC\uB4E4/Che_creative_curiosity.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d860ad085b1019647879db9e4e90fa0f
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/B_Sports_love.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc10adda3c32c484aa678defa1bad0f3
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC0AC\uD68C\uC801\uB3D9\uAE30\uB4E4/Che_social_competition.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc7b8a6abf5373941bea64f68a227177
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uB3C4\uD30C\uBBFC\uCF8C\uB77D\uB4E4/Che_dopamine_decay_speed.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e19a19d35fe39c044a9d12dbad4f5477
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/Interasting/GirlInteresting/Added/B_Gun_love.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6a873b45d8c39846ab30464f6ab8eca
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uB3C4\uD30C\uBBFC\uCF8C\uB77D\uB4E4/Che_status_desire.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea7b410260a553d408190baa93e8f0ba
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/Interasting/GirlInteresting/Added/B_Loli_Love.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efcf6ffee70dfa14f92fbde6fbd4c407
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uCDA9\uB3D9\uB4E4/ChE_Impulsivity.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f05996d19b98ba248a20dbe4f8fc19b0
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/Interasting/GirlInteresting/Added/B_LongHair_love.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1ccaeb132456c740b6b79cb145e4832
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC2DC\uAC04_\uD658\uACBD\uC694\uC778\uB4E4/Ch_Self_control.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2063f996f26326468e1dc4eedf8225d
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uD638\uAE30\uC2EC\uB4E4/Che_information_curiosity.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f29b2ade6e4b69348a3e1c24d23909c6
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC2DC\uAC04_\uD658\uACBD\uB4E4/Che_time_pressure.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5012ae3a709ab142996b63baa7f4e24
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uD638\uAE30\uC2EC\uB4E4/Che_novelty_reward_link.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f539a0d0365d09541947443998afa5a8
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/Ch_\uACBD\uC81C_\uC18C\uBE44.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5f771db903ce174db3963ae4d970228
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uD638\uAE30\uC2EC\uB4E4/Che_curiosity_decay.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f718015e748b41947bb7ff883560fa9a
+    m_Address: Assets/SO/BM/Node/Node/GameAndMedia/B_MobileGame_Love.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb97217cd27175443b28ce2cb8d9d137
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uCDA9\uB3D9\uB4E4/Che_delay_discounting.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc1d9b0181612da47a6cafd34b9e418e
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uCDA9\uB3D9\uB4E4/Che_Patience.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc95118f018c7df45b85e52926a600c0
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uC778\uC9C0_\uC8FC\uC758\uB4E4/Che_predictability_preference.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff373535a32c09c468d00f7c115093d3
+    m_Address: "Assets/SO/BM/Node/Node/GameAndMedia/Character/Characters/\uAC10\uC815\uB4E4/ChE_curiosity_decay.asset"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Nodes
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d7e7f22b396916f479fd2ac159ec077f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 292fb03becdd6404a8c9032e25aa8887, type: 2}
+    - {fileID: 11400000, guid: 796fdff8deef77b429d9ea1c0a241e8a, type: 2}

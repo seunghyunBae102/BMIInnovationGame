@@ -5,58 +5,70 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "SO_UserBase", menuName = "SO/BM/SO_UserBase")]
 public class SO_UserBase : ScriptableObject
 {
+    // 슬롯 배열(프로젝트 요구에 따라 2D 배열 또는 1D로 바꿔 사용)
+    public SO_TaskSlot[,] taskSlots;
 
-    public SO_TaskSlot[,] taskSlots; //주말-평일 -> 하루 일과 비는 시간 및 일하거나 학습하는 시간
-
-    public List<NetNodeInstance> nodes;
-
-    public List<SO_NodeParent> nodeSources_NoUse;
-
+    // 노드 시스템 의존성 제거: 템플릿만 유지
     [ContextMenu("sourceSO2InstanceClass")]
     public void SOurce2nodes()
     {
-        foreach (var item in nodeSources_NoUse)
+        // 노드 시스템을 사용하지 않는 경우 비워둡니다.
+    }
+
+    // 이제 SO는 런타임 상태를 저장하지 않습니다.
+    // CreateRuntimeState는 새 UserRuntimeState 인스턴스를 반환하는 팩토리 역할만 합니다.
+    public UserRuntimeState CreateRuntimeState(string userId = null)
+    {
+        return new UserRuntimeState
         {
-            nodes.Add(new NetNodeInstance(item, null, item.input, item.bias, item.caculMethod));
-        }
-    }
-}
-
-[Serializable]
-public class UserInstance
-{
-    public SO_TaskSlot[] taskSlots;
-
-    public List<SO_NodeParent> nodeSources_NoUse;
-
-    public List<NetNodeInstance> nodes;
-
-    private Dictionary<SO_NodeParent,NetNodeInstance> _nodesDic;
-
-    public UserInstance(SO_TaskSlot[] taskSlots, List<SO_NodeParent> nodeSources_NoUse, List<NetNodeInstance> nodes, Dictionary<SO_NodeParent, NetNodeInstance> nodesDic)
-    {
-        this.taskSlots = taskSlots;
-        this.nodeSources_NoUse = nodeSources_NoUse;
-        this.nodes = nodes;
-        _nodesDic = nodesDic;
+            userId = userId ?? name,
+            mood = 0.5f,
+            fatigue = 0f,
+            desire = 0.5f,
+            habit = 0f,
+            balance = 10f
+        };
     }
 
-    public void Init()
+    // 기존 media 후보 반환(보존)
+    public List<SO_Media> GetCandidateMedia(List<SO_Media> allMedia, float slotTimePressure)
     {
-        foreach(var item in nodes)
+        var result = new List<SO_Media>();
+        if (allMedia == null) return result;
+        foreach (var m in allMedia)
         {
-            item.Init(this);
-            _nodesDic.Add(item.node,item);
+            if (m == null) continue;
+            if (m.requiresConnection && !IsConnected()) continue;
+            result.Add(m);
         }
+        return result;
     }
 
-    public NetNodeInstance GetNode(SO_NodeParent node)
+    // Task 후보 반환(보존)
+    public List<SO_Task> GetCandidateTasks(List<SO_Task> allTasks, SO_TaskSlot slot)
     {
-        NetNodeInstance a = null;
-        _nodesDic.TryGetValue(node,out a);
-        if (a == null)
-            UnityEngine.Debug.LogAssertion("Shit!");
-        return a;
+        var result = new List<SO_Task>();
+        if (allTasks == null) return result;
+        foreach (var t in allTasks)
+        {
+            if (t == null) continue;
+            if (slot != null && slot.requiresConnection)
+            {
+                if (t.media == null || !t.media.requiresConnection) continue;
+            }
+            if (slot != null)
+            {
+                if (t.capacityWeight > Mathf.Max(0.0001f, slot.capacityWeight * 2f)) continue;
+            }
+            result.Add(t);
+        }
+        return result;
+    }
+
+    private bool IsConnected()
+    {
+        // 네트워크 가용성 체크는 프로젝트 수준에서 구현하세요.
+        return true;
     }
 }
 
