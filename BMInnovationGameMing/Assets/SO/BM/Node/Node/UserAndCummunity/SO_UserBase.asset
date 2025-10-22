@@ -12,11 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1400caa2ae183124b85dead10fd65a71, type: 3}
   m_Name: SO_UserBase
   m_EditorClassIdentifier: 
-  nodes:
-  - node: {fileID: 0}
-    input: []
-    bias:
-      node: {fileID: 0}
-      value: 0
-    caculMethod: {fileID: 0}
-  nodeSources_NoUse: []
+  nodes: []
+  nodeSources_NoUse:
+  - {fileID: 11400000, guid: a0f23fbdb6dd06f4698b0723d6c70438, type: 2}
+  - {fileID: 11400000, guid: a2fb2ee029f8e954c94fcd0c86609d6d, type: 2}
+  - {fileID: 11400000, guid: 6ed8b33b43f2b704f8aaae4d217088d9, type: 2}
+  - {fileID: 11400000, guid: 585c9c483efcdc74e973825a25bd6836, type: 2}
+  - {fileID: 11400000, guid: 78cb1b645ad99774882392004e58187b, type: 2}
+  - {fileID: 11400000, guid: d44758c31fb5b0b4591bce255b7af75a, type: 2}
+  - {fileID: 11400000, guid: f718015e748b41947bb7ff883560fa9a, type: 2}
+  - {fileID: 11400000, guid: a530e49724ece4d4695349037af07243, type: 2}
+  - {fileID: 11400000, guid: 3f09b0b431a95ae46aa6a2bd7181cd61, type: 2}
+  - {fileID: 11400000, guid: d860ad085b1019647879db9e4e90fa0f, type: 2}
+  - {fileID: 11400000, guid: d0f15612e22201c47a532728f9e962a1, type: 2}
+  - {fileID: 11400000, guid: 596b1a481fa242247848032a32801de3, type: 2}

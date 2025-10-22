@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   input: []
   bias:
-    node: {fileID: 0}
+    node: {fileID: 11400000}
     value: 0
   caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+  Key: B_AnimeLove (SO_NodeBase)
+  _nodeSources_Ref: []
+  _description: 

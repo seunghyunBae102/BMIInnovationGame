@@ -26,6 +26,8 @@ public class SO_NodeBase : SO_NodeParent
             bias.node = this;
         }
         _nodeSources_Ref.Clear();
+        var a = this.ToString().Replace("(SO_Node Base)", "");
+        
     }
 }
 

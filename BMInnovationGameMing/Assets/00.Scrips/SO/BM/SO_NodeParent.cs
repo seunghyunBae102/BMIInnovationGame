@@ -10,6 +10,8 @@ public class SO_NodeParent : ScriptableObject
 
     public SO_NodeOperator caculMethod;
 
+    public string Key;
+
     //public virtual float GetValue()
     //{
     //    return caculMethod.GetValue(input, bias.GetValue());
