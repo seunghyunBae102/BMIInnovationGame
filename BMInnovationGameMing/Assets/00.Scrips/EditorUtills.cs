@@ -1,9 +1,10 @@
-//# if UNITY_EDITOR
+# if UNITY_EDITOR
 
 using UnityEngine;
 using UnityEditor;
 using System;
 
+#region bool -> Invisiable!
 [AttributeUsage(AttributeTargets.Field)]
 public class ConditionalFieldAttribute : PropertyAttribute
 {
@@ -55,6 +56,7 @@ public class ConditionalFieldDrawer : PropertyDrawer
         return true; // 못 찾으면 보이게
     }
 }
+#endregion
 
 
-//#endif
+#endif

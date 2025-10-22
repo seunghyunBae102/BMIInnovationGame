@@ -6,16 +6,16 @@ using UnityEngine;
 public class SO_UserBase : ScriptableObject
 {
 
-    public SO_TaskSlot[,] taskSlots; //주말-평일 -> 하루 일과 비는 시간 및 일하거나 학습하는 시간
+    public Dictionary<string, SO_TaskSlot[]> taskSlots; //주말-평일 -> 하루 일과 비는 시간 및 일하거나 학습하는 시간
 
     public List<NetNodeInstance> nodes;
 
-    public List<SO_NodeParent> nodeSources_NoUse;
+    public List<SO_NodeParent> nodeSources_Reference;
 
     [ContextMenu("sourceSO2InstanceClass")]
     public void SOurce2nodes()
     {
-        foreach (var item in nodeSources_NoUse)
+        foreach (var item in nodeSources_Reference)
         {
             nodes.Add(new NetNodeInstance(item, null, item.input, item.bias, item.caculMethod));
         }

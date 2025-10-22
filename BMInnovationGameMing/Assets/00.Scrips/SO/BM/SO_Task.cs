@@ -6,6 +6,7 @@ public class SO_Task : ScriptableObject
 {
     [Range(0, 5)]
     public int heavyLevel = 1;
+    //어떤 환경에서 할 수 있는지 여부
 
     [Range(0, 5f)]
     public float tiredDamage = 1f;
