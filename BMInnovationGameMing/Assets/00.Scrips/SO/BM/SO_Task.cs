@@ -12,7 +12,8 @@ public class SO_Task : ScriptableObject
     public float tiredDamage = 1f;
     //한 Task에서 했을 때 발생하는 피로도의 양.
 
-    public List<NodeOperatorComboSet> input;
+    public List<SO_NodeBase> input;
+    //인풋 프로퍼티
     //public 행동 SO
 
     [SerializeField]

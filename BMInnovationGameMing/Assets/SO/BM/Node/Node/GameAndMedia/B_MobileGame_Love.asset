@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 493b421e7dd158a4394c8e383c1b54c2, type: 3}
   m_Name: B_MobileGame_Love
   m_EditorClassIdentifier: 
-  input: []
+  input:
+  - node: {fileID: 11400000}
+    weight:
+      node: {fileID: 11400000}
+      value: 0.5
   bias:
     node: {fileID: 11400000}
     value: 0

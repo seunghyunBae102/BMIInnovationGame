@@ -45,6 +45,10 @@ MonoBehaviour:
     weight:
       node: {fileID: 11400000, guid: e6a873b45d8c39846ab30464f6ab8eca, type: 2}
       value: 0.5
+  - node: {fileID: 11400000}
+    weight:
+      node: {fileID: 11400000}
+      value: 0.5
   bias:
     node: {fileID: 11400000}
     value: 0

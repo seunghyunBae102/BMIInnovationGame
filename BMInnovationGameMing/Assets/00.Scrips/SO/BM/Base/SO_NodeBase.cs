@@ -28,6 +28,20 @@ public class SO_NodeBase : SO_NodeParent
         _nodeSources_Ref.Clear();
         var a = this.ToString().Replace(" (SO_NodeBase)", "");
         Key = a;
+
+        bool ishasSelf = true;
+        foreach (var item in input)
+        {
+            if (item.node == this)
+            {
+                ishasSelf = false;
+                break;
+            }
+        }
+        if(ishasSelf)
+        {
+            input.Add(new (this, new NodeParam(this, 0.5f)));
+        }
     }
 }
 

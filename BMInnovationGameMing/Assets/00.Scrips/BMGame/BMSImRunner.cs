@@ -10,12 +10,9 @@ public struct Users
 {
 
 }
-public class BMTester : MonoBehaviour
+public class BMSImRunner : GetCompoableBase //시뮬래이션을 돌리는 주체
 {
 
 
-    private void Awake()
-    {
-        
-    }
+    
 }

@@ -12,11 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 493b421e7dd158a4394c8e383c1b54c2, type: 3}
   m_Name: B_Know
   m_EditorClassIdentifier: 
-  input: []
+  input:
+  - node: {fileID: 11400000}
+    weight:
+      node: {fileID: 11400000}
+      value: 0.5
   bias:
     node: {fileID: 11400000}
     value: 0
   caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
-  Key: B_ThisGame_love
+  Key: B_Know
   _nodeSources_Ref: []
   _description: "\uC5BC\uB9C8\uB098 \uC54C\uACE0\uC788\uB294\uC9C0"
