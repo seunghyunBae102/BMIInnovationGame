@@ -5,7 +5,7 @@ public class GetCompoableBase : MonoBehaviour,IGetCompoable
     [HideInInspector]
     public GetCompoParent Mom;
 
-    public void Init(GetCompoParent mom)
+    public virtual void Init(GetCompoParent mom)
     {
         mom.AddCompoDic(this.GetType(), this);
         Mom = mom;
