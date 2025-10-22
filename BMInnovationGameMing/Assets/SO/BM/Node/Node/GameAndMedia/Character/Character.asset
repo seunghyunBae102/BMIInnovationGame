@@ -49,5 +49,6 @@ MonoBehaviour:
     node: {fileID: 11400000}
     value: 0.2
   caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+  Key: Character
   _nodeSources_Ref: []
   _description: "\uAC10\uC815 - \uC124\uC815\uC801\uC778 \uAC70 \u3147\u3147"

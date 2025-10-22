@@ -13,7 +13,7 @@ public class SO_NodeBase : SO_NodeParent
     private string _description;
 
     [ContextMenu("Ref2SOurce")]
-    public void Ref2Source()
+    public virtual void Ref2Source()
     {
         foreach (var item in _nodeSources_Ref)
         {
@@ -26,8 +26,8 @@ public class SO_NodeBase : SO_NodeParent
             bias.node = this;
         }
         _nodeSources_Ref.Clear();
-        var a = this.ToString().Replace("(SO_Node Base)", "");
-        
+        var a = this.ToString().Replace(" (SO_NodeBase)", "");
+        Key = a;
     }
 }
 

@@ -17,6 +17,7 @@ MonoBehaviour:
     node: {fileID: 11400000}
     value: 0
   caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+  Key: ChE_curiosity_decay
   _nodeSources_Ref: []
   _description: "\uD638\uAE30\uC2EC \uC720\uC9C0\uC2DC\uAC04 | \uCF58\uD150\uCE20
     \uBAB0\uC785 \uC9C0\uC18D\uC131 \uACB0\uC815 |"

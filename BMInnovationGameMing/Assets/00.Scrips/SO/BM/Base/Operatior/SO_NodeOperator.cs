@@ -27,7 +27,7 @@ using UnityEngine;
 public struct NodeParam
 {
     public SO_NodeParent node;
-    [Range(0f, 1f)]
+    [Range(-1f, 1f)]
     public float value;
 
     public NodeParam(SO_NodeParent node, float value)

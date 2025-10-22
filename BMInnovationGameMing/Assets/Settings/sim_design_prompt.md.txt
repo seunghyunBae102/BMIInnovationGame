@@ -1,0 +1,124 @@
+# Purpose
+You are assisting the development of a **simulation framework** — not a single game or app, but an expandable ecosystem model.  
+Your role is to help maintain and extend the system **without breaking its logic or structure**, always respecting the architectural intent.
+
+---
+
+## Concept Overview
+The project is a **BM survival simulator** built in **Unity**, representing how different **media ecosystems** (mobile games, YouTube, streaming, communities, offline events) compete for limited user attention, time, and money.
+
+Users act as agents with personality, emotions, habits, and daily schedules; media entities act as evolving BMs (business models).  
+The simulation uses structured data (ScriptableObjects) rather than hardcoded logic, enabling expansion through data and AI control.
+
+---
+
+## Core Design Principles
+
+1. **Data-Driven Architecture**  
+   - Every behavioral, economic, or psychological factor is stored as data (ScriptableObject or JSON), not constants.  
+   - Example: `UserPersonalitySO`, `UserSO`, `MediaSO`, `UserScheduleSO`.
+
+2. **Composability / Scalability**  
+   - Systems (Media, User, Schedule, Simulation, AI) are modular and replaceable.  
+   - Adding new behaviors means **adding data or components**, not rewriting loops.
+
+3. **AI-Adjustable Utility Framework**  
+   - Decisions use a *utility-based softmax* rather than if-statements.  
+   - Neural networks (e.g. `NeuralNetSO`) will eventually output coefficients or biases, **not make direct decisions**.  
+   - This ensures interpretability + stability.
+
+4. **Context Awareness**  
+   - Every decision happens under a slot/time constraint (`capacityWeight`, `offlineOk`, `timePressure`).
+   - Users cannot act outside their slot capabilities.
+
+5. **Realistic Feedback Loop**  
+   - Exposure → Desire → Selection → Session → Update → Fatigue/Recovery → Survival evaluation.
+   - Monthly survival rule:  
+     `NetRevenue > Cost × 1.1`
+
+6. **Separation of Concerns**
+   - **MediaSO** handles monetization logic & content types.
+   - **UserSO** manages emotion, budget, fatigue, and media state.
+   - **SimRunner** handles simulation flow & interaction.
+   - **NeuralNetSO** (optional) adjusts weights dynamically.
+   - Avoid mixing simulation state with UI or runtime MonoBehaviours.
+
+7. **Realism through Constraint, not Randomness**
+   - Randomness is used for variance, but results should emerge from weighted, explainable causes (fatigue, novelty, exposure, etc.).
+
+---
+
+## Behavioral Model Summary
+
+Each time slot:
+1. Update exposure/desire.  
+2. Filter candidate actions by slot capacity and connection state.  
+3. Compute utility per action:
+U = w1appeal + w2brand + w3desire + w4habit
+- w5fatigue - w6context
+
+yaml
+코드 복사
+Coefficients can later be adjusted by AI.  
+4. Softmax selection (temperature = time pressure).  
+5. Simulate session → ads, purchases, watch time, revenue.  
+6. Update states (fatigue↑, mood±, brand/habit/desire changes).  
+7. End-of-day recovery.
+
+---
+
+## Data Entities (simplified)
+- **MediaSO**: defines platforms, modes, monetization.
+- **UserPersonalitySO**: defines psychological traits (0–1 floats).
+- **UserScheduleSO**: defines weekday/weekend slots.
+- **UserSO**: ties personality, schedule, runtime state.
+- **SimRunner.cs**: orchestrates simulation (loop & logging).
+
+---
+
+## Expansion Roadmap
+- 🧩 Add marketing exposure models (ads, friend, community).
+- 🧠 Replace static weights with AI-driven coefficients (NeuralNetSO).
+- 💾 Add CSV/JSON data logging for analytics.
+- 🔁 Add daily/monthly aggregation and evolutionary survival.
+- ⚖️ Add dopamine decay, fatigue saturation, and recovery balance.
+- 👥 Extend to multi-user interaction (social network effects).
+
+---
+
+## Copilot’s Expected Behavior
+- Maintain modularity and interpretability.
+- Never hardcode values that belong in ScriptableObjects.
+- When extending logic, **expose new data parameters** instead of embedding constants.
+- Favor clean, inspectable code over opaque optimization.
+- Use clear comments to explain psychological or behavioral reasoning behind formulas.
+- Avoid premature AI automation; AI assists, not replaces logic.
+
+---
+
+## Use Example
+Ask Copilot:
+#read sim_design_core_prompt.md
+
+yaml
+코드 복사
+Then prompt:
+Suggest a safe way to integrate marketing exposure SOs into the current loop without breaking modularity.
+
+nginx
+코드 복사
+or
+Refactor SimRunner so that daily aggregation can plug in future NeuralNetSO outputs.
+
+yaml
+코드 복사
+
+---
+
+## Summary
+This simulation is not about “making a game,”  
+but about **building a framework that evolves like an ecosystem** —  
+where data, human traits, and business logic coexist and compete.
+
+Copilot’s job:  
+**protect the architecture, extend it consistently, and maintain cause-and-effect realism.**

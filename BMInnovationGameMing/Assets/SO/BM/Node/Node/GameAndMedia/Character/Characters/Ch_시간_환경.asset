@@ -45,6 +45,7 @@ MonoBehaviour:
     node: {fileID: 11400000}
     value: 0
   caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+  Key: "Ch_\uC2DC\uAC04_\uD658\uACBD"
   _nodeSources_Ref: []
   _description: "\uD604\uC7AC \uC0C1\uD669(\uC7A5\uC18C, \uC2DC\uAC04, \uBC30\uD130\uB9AC,
     \uB124\uD2B8\uC6CC\uD06C \uB4F1)\n\uC2E4\uC81C \uC138\uC158 \uB2E8\uCD95/\uC774\uD0C8

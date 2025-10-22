@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   input: []
   bias:
-    node: {fileID: 0}
+    node: {fileID: 11400000}
     value: 0
   caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+  Key: Che_social_fatigue
   _nodeSources_Ref: []
   _description: "| \uC0AC\uD68C \uD53C\uB85C\uB3C4 | SNS \uC0AC\uC6A9\uC2DC\uAC04\u2193
     |"

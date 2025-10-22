@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   input: []
   bias:
-    node: {fileID: 0}
+    node: {fileID: 11400000}
     value: 0
   caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+  Key: Che_Patience
   _nodeSources_Ref: []
   _description: "\uAE30\uB2E4\uB9B4 \uC218 \uC788\uB294 \uB2A5\uB825 | \uAD11\uACE0
     \uC2DC\uCCAD \uC644\uC8FC\u2191"

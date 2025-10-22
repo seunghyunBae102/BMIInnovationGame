@@ -17,6 +17,7 @@ MonoBehaviour:
     node: {fileID: 11400000}
     value: 0
   caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+  Key: Che_learning_orientation
   _nodeSources_Ref: []
   _description: "| \uC2A4\uC2A4\uB85C \uBC30\uC6B0\uB294 \uC758\uC9C0 | \uAC8C\uC784\xB7\uD234\uD29C\uD1A0\uB9AC\uC5BC
     \uC601\uC0C1 \uC720\uC9C0\u2191 |"

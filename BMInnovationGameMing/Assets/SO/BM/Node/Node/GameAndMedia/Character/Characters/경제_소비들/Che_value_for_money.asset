@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   input: []
   bias:
-    node: {fileID: 0}
+    node: {fileID: 11400000}
     value: 0
   caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+  Key: Che_value_for_money
   _nodeSources_Ref: []
   _description: "| \uD6A8\uC728 \uC911\uC2EC \uC18C\uBE44 | \uD569\uB9AC\uC801 \uACFC\uAE08,
     \uAD11\uACE0 \uC120\uD0DD\u2191 |"

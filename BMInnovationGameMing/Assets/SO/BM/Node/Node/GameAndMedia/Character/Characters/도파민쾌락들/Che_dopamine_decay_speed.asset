@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   input: []
   bias:
-    node: {fileID: 0}
+    node: {fileID: 11400000}
     value: 0
   caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+  Key: Che_dopamine_decay_speed
   _nodeSources_Ref: []
   _description: "\uC790\uADF9\uC5D0 \uC775\uC219\uD574\uC9C0\uB294 \uC18D\uB3C4\n\uBE60\uB974\uAC8C
     \uC9C8\uB9BC \u2192 \uC138\uC158 \uB2E8\uCD95"

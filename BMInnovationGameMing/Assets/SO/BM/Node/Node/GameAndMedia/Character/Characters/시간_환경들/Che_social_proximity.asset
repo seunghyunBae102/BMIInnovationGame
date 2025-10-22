@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   input: []
   bias:
-    node: {fileID: 0}
+    node: {fileID: 11400000}
     value: 0
   caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+  Key: Che_social_proximity
   _nodeSources_Ref: []
   _description: "| \uC8FC\uBCC0 \uC0AC\uB78C \uC720\uBB34 | \uD504\uB77C\uC774\uBC84\uC2DC
     \uCF58\uD150\uCE20 \uC120\uD0DD\u2191 |"

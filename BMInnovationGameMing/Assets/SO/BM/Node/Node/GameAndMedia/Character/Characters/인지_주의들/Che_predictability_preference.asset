@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   input: []
   bias:
-    node: {fileID: 0}
+    node: {fileID: 11400000}
     value: 0
   caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+  Key: Che_predictability_preference
   _nodeSources_Ref: []
   _description: "| \uC775\uC219\uD568 \uC120\uD638 | \uBC18\uBCF5 \uCF58\uD150\uCE20\u2191
     |"

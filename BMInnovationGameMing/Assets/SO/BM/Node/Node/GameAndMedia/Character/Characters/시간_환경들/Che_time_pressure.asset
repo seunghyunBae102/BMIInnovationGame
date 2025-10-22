@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   input: []
   bias:
-    node: {fileID: 0}
+    node: {fileID: 11400000}
     value: 0
   caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+  Key: Che_time_pressure
   _nodeSources_Ref: []
   _description: "| \uD604\uC7AC \uC2DC\uAC04 \uC555\uBC15\uAC10 | \uC9E7\uC740 \uCF58\uD150\uCE20
     \uC120\uD638 |"

@@ -17,6 +17,7 @@ MonoBehaviour:
     node: {fileID: 11400000}
     value: 0
   caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+  Key: Che_novelty_reward_link
   _nodeSources_Ref: []
   _description: "\uC0C8\uB85C\uC6C0\u2192\uBCF4\uC0C1 \uC778\uC2DD \uC5F0\uACB0 \uAC15\uB3C4
     | \uC1FC\uCE20 \uD0D0\uC0C9\u2191 |"

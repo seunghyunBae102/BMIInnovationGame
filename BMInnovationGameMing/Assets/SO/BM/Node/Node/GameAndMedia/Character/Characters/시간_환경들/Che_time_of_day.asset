@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   input: []
   bias:
-    node: {fileID: 0}
+    node: {fileID: 11400000}
     value: 0
   caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+  Key: Che_time_of_day
   _nodeSources_Ref: []
   _description: "| \uC8FC\xB7\uC57C\uAC04 \uAC01\uC131\uB3C4 | \uC57C\uAC04\uC77C\uC218\uB85D
     \uC1FC\uCE20, \uAC8C\uC784\u2191 |"

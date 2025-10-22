@@ -17,6 +17,6 @@ MonoBehaviour:
     node: {fileID: 11400000}
     value: 0
   caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
-  Key: B_AnimeLove (SO_NodeBase)
+  Key: B_AnimeLove
   _nodeSources_Ref: []
-  _description: 
+  _description: "\uC560\uB2C8\uBA54\uC774\uC158 \uD638\uAC10\uB3C4"

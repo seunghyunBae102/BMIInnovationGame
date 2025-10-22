@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   input: []
   bias:
-    node: {fileID: 0}
+    node: {fileID: 11400000}
     value: 0
   caculMethod: {fileID: 11400000, guid: 47a5f2a9f6a99e14b92d06a4bdea7a0e, type: 2}
+  Key: Che_fomo_sensitivity
   _nodeSources_Ref: []
   _description: "| \uB193\uCE68 \uACF5\uD3EC(FOMO) | \uC774\uBCA4\uD2B8/\uC54C\uB9BC
     \uD074\uB9AD\u2191 |"
